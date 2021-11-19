@@ -16,5 +16,15 @@ namespace Hello
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Properties.Resources.hello_world;
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = null;
+        }
     }
 }
